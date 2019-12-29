@@ -1,11 +1,32 @@
-.tab-content {
+#content {
     height: 425px;
     width: 700px;
-    background-color: rgb(255, 255, 255, 0.3);
     float: right;
     margin-right: 50px;
     margin-top: 50px;
+}
+
+.tab-content {
+    height: 425px;
+    width: 625px;
+    background-color: rgb(255, 255, 255, 0.3);
+    float: left;
     text-align: center;
+}
+
+.navBar {
+    height: 425px;
+    width: 75px;
+    float: right;
+    display: grid;
+    background-color:rgb(0, 0, 0, 0.3);
+}
+
+.nav-btn {
+    width: 75px;
+    height: 140px;
+    background-color: rgb(0, 0, 0, 0.3);
+    border: none;
 }
 
 h1 {
