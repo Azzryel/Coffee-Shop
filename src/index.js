@@ -29,7 +29,20 @@ navBtn.forEach ( (button) => {
             loadContact();
         }
     });
+
+    button.addEventListener("mouseenter", (e) => {
+        e.target.style.backgroundColor = `rgb(255, 255, 255, 0.3)`;
+        e.target.style.color = "whitesmoke";
+    
+    });
+
+    button.addEventListener("mouseleave", (e) => {
+        e.target.style.backgroundColor = `rgb(0, 0, 0, 0.3)`;
+        e.target.style.color = "grey";
+    
+    });
 });
+
 
 function removeElement() {
     const element = document.getElementById("tab-content");

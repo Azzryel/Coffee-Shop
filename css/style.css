@@ -27,6 +27,7 @@
     height: 140px;
     background-color: rgb(0, 0, 0, 0.3);
     border: none;
+    color: grey;
 }
 
 h1 {
@@ -35,7 +36,34 @@ h1 {
     font-size: x-large;
 }
 
+h2 {
+    margin-top: 25px;
+    color: whitesmoke;
+    font-size: larger;
+}
+
 pre {
     margin-top: 75px;
     color: whitesmoke;
+}
+
+#menu-box {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: whitesmoke;
+}
+
+.pics {
+    width: 175px;
+    height: 175px;
+}
+
+#contact-info {
+    margin-top: 50px;
+}
+
+#contact-info p {
+    color: whitesmoke;
+    padding: 10px;
 }
