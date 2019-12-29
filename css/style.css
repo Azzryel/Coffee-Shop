@@ -6,7 +6,7 @@
     margin-top: 50px;
 }
 
-.tab-content {
+#tab-content {
     height: 425px;
     width: 625px;
     background-color: rgb(255, 255, 255, 0.3);
